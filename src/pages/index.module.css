@@ -16,8 +16,38 @@
   }
 }
 
+.heroLead {
+  max-width: 40rem;
+  margin: 0 auto 1.5rem;
+  opacity: 0.9;
+}
+
 .buttons {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.card {
+  display: block;
+  height: 100%;
+  padding: 1.5rem;
+  border: 1px solid var(--ifm-color-emphasis-200);
+  border-radius: var(--ifm-card-border-radius, 0.5rem);
+  background: var(--ifm-background-surface-color);
+  color: inherit;
+  transition: border-color 0.2s ease, transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+  text-decoration: none;
+  border-color: var(--ifm-color-primary);
+  transform: translateY(-2px);
+  box-shadow: var(--ifm-global-shadow-lw);
+}
+
+.cardEmoji {
+  font-size: 2rem;
+  line-height: 1;
+  margin-bottom: 0.75rem;
 }
