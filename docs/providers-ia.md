@@ -26,6 +26,32 @@ Les quatre briques (chat, transcription, voix, images) se configurent
 montage courant : **LLM en local** pour la confidentialité et le coût, **voix**
 chez un fournisseur cloud pour la qualité.
 
+## Fournisseurs cloud compatibles OpenAI
+
+En plus d'OpenAI et Gemini, Leticia intègre en presets plusieurs fournisseurs
+cloud qui parlent le format OpenAI. Sélectionnez le provider, collez votre clé,
+choisissez (ou saisissez) le modèle — l'URL de base est pré-remplie.
+
+| Provider | Capacités | URL de base |
+|---|---|---|
+| **Anthropic (Claude)** | Chat | `https://api.anthropic.com/v1` |
+| **OpenRouter** | Chat | `https://openrouter.ai/api/v1` |
+| **Groq** | Chat · STT | `https://api.groq.com/openai/v1` |
+| **Mistral AI** | Chat | `https://api.mistral.ai/v1` |
+| **DeepSeek** | Chat | `https://api.deepseek.com/v1` |
+| **xAI (Grok)** | Chat | `https://api.x.ai/v1` |
+| **Together AI** | Chat | `https://api.together.xyz/v1` |
+| **Perplexity** | Chat | `https://api.perplexity.ai` |
+| **Fireworks AI** | Chat | `https://api.fireworks.ai/inference/v1` |
+| **Cerebras** | Chat | `https://api.cerebras.ai/v1` |
+
+:::note
+Le **modèle par défaut** proposé est indicatif : les catalogues évoluent vite.
+Le champ modèle est libre, saisissez l'identifiant exact publié par le
+fournisseur si besoin. **OpenRouter** donne accès à des centaines de modèles via
+un seul compte ; **Anthropic** passe par son endpoint compatible OpenAI.
+:::
+
 ## Endpoints attendus
 
 Un serveur local doit exposer, selon la brique, ces routes compatibles OpenAI :
