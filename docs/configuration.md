@@ -31,6 +31,12 @@ modèle. Pour un serveur local, choisissez **Personnalisé** et indiquez son
 
 Le bouton **Tester** vérifie la connexion.
 
+:::info Providers & IA locale
+La liste complète des providers et des applications d'IA locale (LLM, STT, TTS,
+images) avec leurs URL de base est détaillée sur la page
+[Providers & IA locale](./providers-ia).
+:::
+
 :::tip Latence
 Un modèle local rapide (ou un petit modèle cloud) améliore nettement le ressenti
 de conversation. Les réglages de génération (nombre de tokens, historique) sont
@@ -46,7 +52,8 @@ transcription et un fournisseur cloud pour la voix.
 
 Pour du **100 % local**, pointez STT et TTS sur un serveur vocal compatible
 OpenAI (par ex. Speaches ou LocalAI) exposant `/audio/transcriptions` et
-`/audio/speech`.
+`/audio/speech`. Voir les applications recommandées sur la page
+[Providers & IA locale](./providers-ia).
 
 ## 4. C'est prêt
 
