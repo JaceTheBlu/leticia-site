@@ -8,7 +8,7 @@ title: Installation
 Choisissez le format adapté à votre environnement. Dans tous les cas,
 l'application est ensuite accessible sur **`http://<machine>:8000`**.
 
-:::info Clé de chiffrement
+:::info[Clé de chiffrement]
 `SETTINGS_MASTER_KEY` chiffre vos clés API stockées en base. Générez-en une
 solide et **conservez-la** : sans elle, une sauvegarde restaurée ne peut plus
 déchiffrer les secrets. Générer une valeur : `openssl rand -hex 32`.

@@ -117,7 +117,7 @@ pour la voix, sur deux ports différents.
 4. Laissez la **clé API vide** si le serveur n'en demande pas.
 5. Cliquez sur **Tester**.
 
-:::note Depuis Docker
+:::note[Depuis Docker]
 Si Leticia tourne en conteneur et le serveur d'IA sur la machine hôte,
 remplacez `localhost` par `host.docker.internal` dans l'URL de base.
 :::

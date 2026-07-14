@@ -31,13 +31,13 @@ modèle. Pour un serveur local, choisissez **Personnalisé** et indiquez son
 
 Le bouton **Tester** vérifie la connexion.
 
-:::info Providers & IA locale
+:::info[Providers & IA locale]
 La liste complète des providers et des applications d'IA locale (LLM, STT, TTS,
 images) avec leurs URL de base est détaillée sur la page
 [Providers & IA locale](./providers-ia).
 :::
 
-:::tip Latence
+:::tip[Latence]
 Un modèle local rapide (ou un petit modèle cloud) améliore nettement le ressenti
 de conversation. Les réglages de génération (nombre de tokens, historique) sont
 ajustables dans le même onglet.
