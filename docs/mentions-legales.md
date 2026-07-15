@@ -6,26 +6,28 @@ title: Mentions légales
 # Mentions légales
 
 :::warning[Modèle à compléter — pas un conseil juridique]
-Ce document est un **modèle**. Remplacez les champs `[À compléter]` par vos
-informations réelles et faites-le relire par un professionnel du droit. Les
-mentions obligatoires varient selon votre statut (société, association, auto-
-entrepreneur…) et selon que le service est diffusé publiquement ou en interne.
+Ce document est un **modèle** mis en forme pour un **entrepreneur individuel
+(EI)**. Remplacez les champs `[À compléter]` par vos informations réelles.
+Adaptez-le si votre statut change (société, association…) et, en cas de doute,
+faites-le relire par un professionnel du droit.
 :::
 
 ## Éditeur
 
-- **Dénomination / raison sociale** : [À compléter]
-- **Forme juridique** : [À compléter]
-- **Adresse du siège** : [À compléter]
-- **Numéro d'immatriculation** (SIREN/SIRET, RCS, ou RNA pour une association) : [À compléter]
-- **Capital social** (le cas échéant) : [À compléter]
-- **Numéro de TVA intracommunautaire** (le cas échéant) : [À compléter]
-- **Adresse e-mail de contact** : [À compléter]
+Le service est édité par un **entrepreneur individuel (EI)** :
+
+- **Prénom Nom, EI** : [À compléter] *(la mention « EI » ou « entrepreneur individuel » doit suivre le nom)*
+- **Nom commercial** (le cas échéant) : [À compléter]
+- **Adresse professionnelle** : [À compléter]
+- **SIRET** : [À compléter]
+- **Immatriculation** : [À compléter — RCS + ville si commerçant ; répertoire des métiers si artisan]
+- **TVA** : [choisir] n° de TVA intracommunautaire `[À compléter]` **ou**, en franchise en base, la mention « TVA non applicable, article 293 B du CGI »
+- **E-mail de contact** : [À compléter]
 - **Téléphone** : [À compléter]
 
 ## Directeur / directrice de la publication
 
-- [À compléter — nom de la personne responsable]
+- [À compléter — en général vous-même, en tant qu'entrepreneur individuel]
 
 ## Hébergement
 
