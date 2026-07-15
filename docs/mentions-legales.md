@@ -5,10 +5,9 @@ title: Mentions légales
 
 # Mentions légales
 
-:::info[À finaliser]
-L'éditeur et ses coordonnées sont renseignés. Il reste à indiquer un
-**e-mail de contact** (`[À compléter]`). Ce document reste indicatif et ne
-constitue pas un conseil juridique.
+:::note
+Document indicatif, ne constituant pas un conseil juridique. Selon l'évolution
+de l'activité, certaines mentions peuvent être à compléter.
 :::
 
 ## Éditeur
@@ -22,7 +21,7 @@ Le service est édité par un **entrepreneur individuel (EI)** :
 - **Immatriculation** : Registre National des Entreprises (RNE)
 - **N° de TVA intracommunautaire** : FR89934449752
 - **Adresse professionnelle** : 60 rue François 1er, 75008 Paris
-- **E-mail de contact** : [À compléter]
+- **E-mail de contact** : [leticia@ggestin.com](mailto:leticia@ggestin.com)
 - **Téléphone** : +33 6 22 25 82 10
 
 ## Directeur de la publication
@@ -48,8 +47,8 @@ interdite.
 
 ## Contact
 
-Pour toute question relative au service ou à ces mentions : **[À compléter —
-e-mail de contact]**.
+Pour toute question relative au service ou à ces mentions :
+[leticia@ggestin.com](mailto:leticia@ggestin.com).
 
 Pour les questions relatives aux données personnelles, voir la page
 [RGPD & données personnelles](./rgpd).
