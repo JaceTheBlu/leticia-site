@@ -13,12 +13,15 @@ est indicative et évolue selon les retours.
 <div className={styles.board}>
 
 <section className={styles.column} style={{'--accent': 'var(--ifm-color-success)'}}>
-  <h2 className={styles.columnTitle}>✅ Disponible <span className={styles.count}>7</span></h2>
+  <h2 className={styles.columnTitle}>✅ Disponible <span className={styles.count}>10</span></h2>
   <ul className={styles.cards}>
     <li className={styles.card}><strong>Interrogatoire vocal complet</strong>transcription → réponse IA en rôle → synthèse vocale</li>
     <li className={styles.card}>Scénarios, personnages, déclencheurs narratifs et console opérateur</li>
     <li className={styles.card}><strong>IA au choix</strong>OpenAI, Google Gemini, de nombreux fournisseurs cloud, ou un serveur local compatible OpenAI (Ollama, LM Studio, vLLM…)</li>
     <li className={styles.card}>Transcription (STT) et synthèse vocale (TTS) configurables séparément</li>
+    <li className={styles.card}><strong>Fiabilité en session live</strong>reprise automatique et bascule sur un fournisseur de secours si un service IA ralentit ou tombe ; message d'attente en personnage, jamais d'écran bloqué côté joueur</li>
+    <li className={styles.card}><strong>Sauvegardes</strong>sauvegardes automatiques quotidiennes et manuelles de la base, restauration, et sauvegarde avant chaque mise à jour</li>
+    <li className={styles.card}><strong>Mise à jour simplifiée</strong>notification dans l'application et installation en un clic (Windows), téléchargement guidé pour les autres déploiements</li>
     <li className={styles.card}>Comptes et rôles (administrateur / opérateur)</li>
     <li className={styles.card}>Réseau local et déploiement Docker / archive / installeur Windows</li>
     <li className={styles.card}>Documentation d'installation et d'exploitation</li>
@@ -26,11 +29,9 @@ est indicative et évolue selon les retours.
 </section>
 
 <section className={styles.column} style={{'--accent': 'var(--ifm-color-warning)'}}>
-  <h2 className={styles.columnTitle}>🚧 En cours <span className={styles.count}>3</span></h2>
+  <h2 className={styles.columnTitle}>🚧 En cours <span className={styles.count}>1</span></h2>
   <ul className={styles.cards}>
-    <li className={styles.card}><strong>Fiabilité en session live</strong>reprise automatique et message d'attente si un service IA ralentit ou tombe, pour que les joueurs ne restent jamais bloqués</li>
-    <li className={styles.card}><strong>Écran de jeu plein écran</strong>vue dédiée aux joueurs (portrait, état de l'IA, sous-titres)</li>
-    <li className={styles.card}><strong>Mise à jour simplifiée</strong>notification et installation en un clic des instances installées chez les clients</li>
+    <li className={styles.card}><strong>Mode Jeu — borne joueur</strong>écran plein écran dédié aux joueurs sur une borne de la salle : choix du personnage à interroger (badge RFID ou tactile), conversation en push-to-talk, affichage thématisé (portrait, état de l'IA, sous-titres)</li>
   </ul>
 </section>
 
