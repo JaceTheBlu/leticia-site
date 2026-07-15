@@ -31,6 +31,21 @@ modèle. Pour un serveur local, choisissez **Personnalisé** et indiquez son
 
 Le bouton **Tester** vérifie la connexion.
 
+### Fiabilité en session
+
+L'onglet **IA** regroupe, sous la **connexion principale** :
+
+- un **provider de secours** (optionnel) : si le principal ralentit trop ou
+  tombe, Leticia bascule automatiquement dessus, pour qu'une session ne reste
+  jamais bloquée. Activez-le en un clic ; sa configuration (provider, clé,
+  modèle) est identique à la principale ;
+- des réglages de **résilience** : délai avant bascule, nombre de tentatives,
+  **message d'attente** (« le suspect réfléchit… ») et **réplique de repli**
+  jouée en personnage si l'IA reste injoignable.
+
+Les réglages fins de génération (tokens, historique, streaming…) sont rangés
+sous **Options avancées**.
+
 :::info[Providers & IA locale]
 La liste complète des providers et des applications d'IA locale (LLM, STT, TTS,
 images) avec leurs URL de base est détaillée sur la page

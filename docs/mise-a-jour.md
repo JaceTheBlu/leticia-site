@@ -5,7 +5,22 @@ title: Mise à jour
 
 # Mise à jour
 
-Avant toute mise à jour, faites une [sauvegarde](./sauvegarde).
+Avant toute mise à jour, faites une [sauvegarde](./sauvegarde) (l'application en
+crée une automatiquement, mais un filet supplémentaire ne coûte rien).
+
+## Depuis l'application (recommandé)
+
+Quand une nouvelle version est disponible, un **bandeau** apparaît en haut de
+l'application pour les administrateurs.
+
+- **Application Windows** : cliquez sur **Mettre à jour**. Leticia crée d'abord
+  une sauvegarde, télécharge le nouvel installeur et l'exécute ; l'application se
+  ferme puis redémarre. Vos données dans `%APPDATA%\Leticia` sont conservées.
+- **Docker / serveur** : le bandeau propose de **télécharger** la nouvelle
+  version ; appliquez alors la procédure manuelle correspondante ci-dessous.
+
+La recherche de mise à jour interroge les *releases* GitHub environ une fois par
+jour.
 
 ## Docker
 
