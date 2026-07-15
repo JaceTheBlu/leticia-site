@@ -1,0 +1,68 @@
+/* Static Kanban-style layout for the public roadmap: columns + cards, no
+ * interactivity. Colors come from Docusaurus theme vars so it follows light
+ * and dark automatically; each column sets its own --accent. */
+
+.board {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  margin: 1.5rem 0 2rem;
+  align-items: start;
+}
+
+@media (max-width: 900px) {
+  .board {
+    grid-template-columns: 1fr;
+  }
+}
+
+.column {
+  border: 1px solid var(--ifm-color-emphasis-200);
+  border-top: 3px solid var(--accent, var(--ifm-color-primary));
+  border-radius: var(--ifm-card-border-radius, 0.5rem);
+  background: var(--ifm-background-surface-color);
+  padding: 0.75rem 0.75rem 0.25rem;
+}
+
+.columnTitle {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 1rem;
+  margin: 0.25rem 0.25rem 0.75rem;
+}
+
+.count {
+  margin-left: auto;
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: var(--ifm-color-content-secondary);
+  background: var(--ifm-color-emphasis-100);
+  border-radius: 999px;
+  padding: 0.05rem 0.55rem;
+}
+
+.cards {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+
+.card {
+  border: 1px solid var(--ifm-color-emphasis-200);
+  border-left: 3px solid var(--accent, var(--ifm-color-primary));
+  border-radius: 0.4rem;
+  background: var(--ifm-background-color);
+  padding: 0.6rem 0.75rem;
+  font-size: 0.9rem;
+  line-height: 1.4;
+  box-shadow: var(--ifm-global-shadow-lw);
+}
+
+.card strong {
+  display: block;
+  margin-bottom: 0.15rem;
+}
