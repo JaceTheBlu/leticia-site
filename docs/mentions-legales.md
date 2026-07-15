@@ -5,37 +5,39 @@ title: Mentions légales
 
 # Mentions légales
 
-:::warning[Modèle à compléter — pas un conseil juridique]
-Ce document est un **modèle** mis en forme pour un **entrepreneur individuel
-(EI)**. Remplacez les champs `[À compléter]` par vos informations réelles.
-Adaptez-le si votre statut change (société, association…) et, en cas de doute,
-faites-le relire par un professionnel du droit.
+:::info[À finaliser]
+Les informations d'immatriculation de l'éditeur sont renseignées. Il reste à
+compléter les coordonnées `[À compléter]` (adresse professionnelle, e-mail,
+téléphone). Ce document reste indicatif et ne constitue pas un conseil juridique.
 :::
 
 ## Éditeur
 
 Le service est édité par un **entrepreneur individuel (EI)** :
 
-- **Prénom Nom, EI** : [À compléter] *(la mention « EI » ou « entrepreneur individuel » doit suivre le nom)*
-- **Nom commercial** (le cas échéant) : [À compléter]
+- **Gaëtan Gestin — entrepreneur individuel (EI)**
+- **Nom commercial** : GGTheEntreprise
+- **SIRET** : 934 449 752 00013
+- **Code APE / NAF** : 6201Z (programmation informatique)
+- **Immatriculation** : Registre National des Entreprises (RNE)
+- **N° de TVA intracommunautaire** : FR89934449752
 - **Adresse professionnelle** : [À compléter]
-- **SIRET** : [À compléter]
-- **Immatriculation** : [À compléter — RCS + ville si commerçant ; répertoire des métiers si artisan]
-- **TVA** : [choisir] n° de TVA intracommunautaire `[À compléter]` **ou**, en franchise en base, la mention « TVA non applicable, article 293 B du CGI »
 - **E-mail de contact** : [À compléter]
 - **Téléphone** : [À compléter]
 
-## Directeur / directrice de la publication
+## Directeur de la publication
 
-- [À compléter — en général vous-même, en tant qu'entrepreneur individuel]
+Gaëtan Gestin, en qualité d'entrepreneur individuel.
 
 ## Hébergement
 
-Leticia est un logiciel **auto-hébergé** : l'instance est installée et exploitée
-par l'éditeur ci-dessus, sur ses propres équipements ou chez son hébergeur.
+Ce site de documentation est hébergé par **GitHub Pages** :
 
-- **Hébergeur** (si l'instance est accessible en ligne) : [À compléter — nom,
-  adresse et contact de l'hébergeur]
+- **GitHub, Inc.** — 88 Colin P. Kelly Jr. Street, San Francisco, CA 94107,
+  États-Unis — [github.com](https://github.com)
+
+Le logiciel **Leticia** est quant à lui **auto-hébergé** par chaque exploitant
+sur ses propres équipements.
 
 ## Propriété intellectuelle
 
