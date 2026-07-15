@@ -6,9 +6,9 @@ title: Mentions légales
 # Mentions légales
 
 :::info[À finaliser]
-Les informations d'immatriculation de l'éditeur sont renseignées. Il reste à
-compléter les coordonnées `[À compléter]` (adresse professionnelle, e-mail,
-téléphone). Ce document reste indicatif et ne constitue pas un conseil juridique.
+L'éditeur et ses coordonnées sont renseignés. Il reste à indiquer un
+**e-mail de contact** (`[À compléter]`). Ce document reste indicatif et ne
+constitue pas un conseil juridique.
 :::
 
 ## Éditeur
@@ -21,9 +21,9 @@ Le service est édité par un **entrepreneur individuel (EI)** :
 - **Code APE / NAF** : 6201Z (programmation informatique)
 - **Immatriculation** : Registre National des Entreprises (RNE)
 - **N° de TVA intracommunautaire** : FR89934449752
-- **Adresse professionnelle** : [À compléter]
+- **Adresse professionnelle** : 60 rue François 1er, 75008 Paris
 - **E-mail de contact** : [À compléter]
-- **Téléphone** : [À compléter]
+- **Téléphone** : +33 6 22 25 82 10
 
 ## Directeur de la publication
 
