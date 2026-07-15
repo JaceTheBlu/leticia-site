@@ -51,3 +51,11 @@
   line-height: 1;
   margin-bottom: 0.75rem;
 }
+
+.badges {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.5rem;
+  margin-top: 1.25rem;
+}

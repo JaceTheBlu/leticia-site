@@ -61,6 +61,19 @@ function HomepageHeader() {
             Lire la documentation
           </Link>
         </div>
+        <div className={styles.badges} aria-label="Qualité du code">
+          <img
+            src="https://img.shields.io/badge/lint-ruff-261230?logo=ruff&logoColor=white"
+            alt="Lint : Ruff"
+            height={20}
+          />
+          <img src="https://img.shields.io/badge/types-mypy-2a6db2" alt="Types : mypy" height={20} />
+          <img
+            src="https://img.shields.io/badge/tests-unittest-3776ab?logo=python&logoColor=white"
+            alt="Tests : unittest"
+            height={20}
+          />
+        </div>
       </div>
     </header>
   );
