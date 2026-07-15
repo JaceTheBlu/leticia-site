@@ -1,0 +1,86 @@
+---
+sidebar_position: 10
+title: RGPD & données personnelles
+---
+
+# RGPD & données personnelles
+
+:::warning[Modèle à adapter — pas un conseil juridique]
+Cette page décrit **techniquement** les données traitées par Leticia et propose
+un **modèle** d'information pour vos joueurs. Ce n'est **pas** un avis juridique.
+En tant qu'exploitant, vous êtes le **responsable de traitement** : adaptez ces
+éléments à votre situation et faites-les relire par un professionnel du droit.
+:::
+
+## Qui fait quoi
+
+- **Responsable de traitement** : **vous**, l'exploitant de l'escape game qui
+  installe et utilise Leticia. C'est vous qui décidez des finalités et des
+  moyens du traitement.
+- **Leticia (le logiciel)** : un outil que vous hébergez vous-même. L'éditeur
+  n'a **aucun accès** à vos données ni à celles de vos joueurs.
+- **Sous-traitants éventuels** : les **fournisseurs d'IA / de voix** que vous
+  configurez (voir plus bas).
+
+## Données traitées par Leticia
+
+| Donnée | Origine | Où elle est stockée |
+|---|---|---|
+| **Audio des joueurs** | micro pendant la session | transitoire : transcrite puis, selon votre config, envoyée au provider STT |
+| **Transcriptions & messages** | conversation d'interrogatoire | base SQLite locale (sessions) |
+| **Scénarios & personnages** | créés par l'exploitant | base SQLite locale |
+| **Comptes** | exploitant / opérateurs | base SQLite locale (mots de passe **hachés**) |
+| **Journal / logs techniques** | fonctionnement de l'app | fichiers locaux + Journal |
+
+Tout est stocké **localement** (base SQLite sur votre machine ou serveur), y
+compris dans les [sauvegardes](./sauvegarde). Les clés API sont chiffrées.
+
+## Le point sensible : où va l'audio des joueurs
+
+Selon le **provider** que vous configurez ([Providers & IA locale](./providers-ia)) :
+
+- **100 % local** (LLM + STT + TTS sur votre machine ou votre réseau) : l'audio
+  et les transcriptions **ne quittent jamais** vos équipements. C'est l'option
+  la plus protectrice, **recommandée** pour minimiser les obligations et les
+  risques.
+- **Providers cloud** (OpenAI, Google, etc.) : l'audio et/ou le texte sont
+  **envoyés à ces prestataires** pour être traités. Ils deviennent alors vos
+  **sous-traitants** : vérifiez leurs conditions (accord de sous-traitance /
+  DPA, localisation et transferts hors UE, durée de conservation de leur côté).
+
+:::tip
+Pour un escape game grand public, le **tout-local** simplifie nettement la mise
+en conformité : rien ne sort de vos murs.
+:::
+
+## Bonnes pratiques de conformité
+
+- **Information & consentement** : informez les joueurs **avant** la session
+  (affichage à l'accueil + mention à la réservation) qu'un interrogatoire vocal
+  a lieu et que leur voix est traitée. Recueillez leur accord.
+- **Minimisation** : ne conservez pas les sessions plus longtemps que
+  nécessaire. Leticia permet de **réinitialiser** une salle et de **supprimer**
+  des données ; ajustez la [rétention des sauvegardes](./sauvegarde).
+- **Sécurité** : accès admin protégé par mot de passe, `SETTINGS_MASTER_KEY`
+  conservée à part, sauvegardes stockées sur un support maîtrisé.
+- **Droits des personnes** : soyez en mesure de répondre à une demande d'accès
+  ou de suppression (retrouver et effacer les données d'une session).
+- **Mineurs** : si vous accueillez des enfants, prévoyez le consentement des
+  représentants légaux.
+
+## Modèle de mention à afficher aux joueurs
+
+> **Traitement de votre voix pendant le jeu**
+> Cette expérience utilise un personnage animé par une intelligence
+> artificielle. Pendant l'interrogatoire, votre voix est captée et transcrite
+> pour permettre le dialogue. [Décrivez ici : traitement local **ou** recours à
+> un prestataire, et lequel.] Les données de la session sont conservées pendant
+> **[durée]** puis supprimées. Vous pouvez demander l'accès ou la suppression de
+> vos données auprès de **[contact / email]**.
+> Responsable de traitement : **[nom de l'exploitant]**.
+
+:::note
+Cette page est indicative. Vérifiez vos obligations réelles (registre des
+traitements, analyse d'impact éventuelle, contrats de sous-traitance) auprès
+d'un conseil compétent.
+:::

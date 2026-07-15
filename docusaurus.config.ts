@@ -81,6 +81,13 @@ const config: Config = {
             {label: 'Configuration', to: '/docs/configuration'},
           ],
         },
+        {
+          title: 'Légal',
+          items: [
+            {label: 'RGPD & données personnelles', to: '/docs/rgpd'},
+            {label: 'Mentions légales', to: '/docs/mentions-legales'},
+          ],
+        },
       ],
       copyright: `Copyright © ${new Date().getFullYear()} Leticia.`,
     },
