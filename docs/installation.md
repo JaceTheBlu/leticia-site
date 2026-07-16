@@ -14,7 +14,7 @@ solide et **conservez-la** : sans elle, une sauvegarde restaurée ne peut plus
 déchiffrer les secrets. Générer une valeur : `openssl rand -hex 32`.
 :::
 
-## Option A — Docker (recommandé sur serveur)
+## Option A - Docker (recommandé sur serveur)
 
 Prérequis : Docker.
 
@@ -49,7 +49,7 @@ volumes:
 docker compose up -d
 ```
 
-## Option B — Archive sans Docker
+## Option B - Archive sans Docker
 
 Prérequis : Python 3.11+.
 
@@ -64,7 +64,7 @@ export SETTINGS_MASTER_KEY="$(openssl rand -hex 32)"
 uvicorn app.main:app --host 0.0.0.0 --port 8000
 ```
 
-## Option C — Installeur Windows
+## Option C - Installeur Windows
 
 Pour un poste Windows sans Python ni Docker.
 

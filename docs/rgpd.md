@@ -5,7 +5,7 @@ title: RGPD & données personnelles
 
 # RGPD & données personnelles
 
-:::warning[Modèle à adapter — pas un conseil juridique]
+:::warning[Modèle à adapter - pas un conseil juridique]
 Cette page décrit **techniquement** les données traitées par Leticia et propose
 un **modèle** d'information pour vos joueurs. Ce n'est **pas** un avis juridique.
 En tant qu'exploitant, vous êtes le **responsable de traitement** : adaptez ces

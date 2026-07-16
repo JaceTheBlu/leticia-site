@@ -14,7 +14,7 @@ de l'activité, certaines mentions peuvent être à compléter.
 
 Le service est édité par un **entrepreneur individuel (EI)** :
 
-- **Gaëtan Gestin — entrepreneur individuel (EI)**
+- **Gaëtan Gestin - entrepreneur individuel (EI)**
 - **Nom commercial** : GGTheEntreprise
 - **SIRET** : 934 449 752 00013
 - **Code APE / NAF** : 6201Z (programmation informatique)
@@ -32,8 +32,8 @@ Gaëtan Gestin, en qualité d'entrepreneur individuel.
 
 Ce site de documentation est hébergé par **GitHub Pages** :
 
-- **GitHub, Inc.** — 88 Colin P. Kelly Jr. Street, San Francisco, CA 94107,
-  États-Unis — [github.com](https://github.com)
+- **GitHub, Inc.** - 88 Colin P. Kelly Jr. Street, San Francisco, CA 94107,
+  États-Unis - [github.com](https://github.com)
 
 Le logiciel **Leticia** est quant à lui **auto-hébergé** par chaque exploitant
 sur ses propres équipements.

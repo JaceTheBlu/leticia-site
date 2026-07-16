@@ -13,7 +13,7 @@ function markup(): string {
       <div>
         <span class="lt-eyebrow">Dossier · Interrogatoire assisté par IA</span>
         <h1>Vos suspects <span class="lt-em">prennent la parole.</span></h1>
-        <p class="lt-sub">La plateforme d'interrogatoires narratifs par IA pour escape games. Les joueurs parlent, les personnages répondent dans leur rôle — et tout tourne sur <b>votre propre serveur</b>.</p>
+        <p class="lt-sub">La plateforme d'interrogatoires narratifs par IA pour escape games. Les joueurs parlent, les personnages répondent dans leur rôle - et tout tourne sur <b>votre propre serveur</b>.</p>
         <div class="lt-cta">
           <a class="lt-btn" href="#contact">Demander une démo
             <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
@@ -87,7 +87,7 @@ function markup(): string {
         </div>
         <div class="lt-feat lt-reveal">
           <svg class="lt-ic" viewBox="0 0 24 24" fill="none"><rect x="3" y="4" width="18" height="13" rx="1.5" stroke="currentColor" stroke-width="1.8"/><path d="M3 13l4-3 3 2 4-4 3 2.5M8 21h8" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
-          <h3>Console opérateur</h3><p>Sessions en direct, déclencheurs, journal des événements et tableau de bord — le MJ voit tout.</p>
+          <h3>Console opérateur</h3><p>Sessions en direct, déclencheurs, journal des événements et tableau de bord - le MJ voit tout.</p>
         </div>
         <div class="lt-feat lt-reveal">
           <svg class="lt-ic" viewBox="0 0 24 24" fill="none"><rect x="3" y="3" width="18" height="14" rx="1.5" stroke="currentColor" stroke-width="1.8"/><path d="M8 21h8M12 17v4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/><circle cx="12" cy="10" r="3" stroke="currentColor" stroke-width="1.8"/></svg>
@@ -95,11 +95,11 @@ function markup(): string {
         </div>
         <div class="lt-feat lt-reveal">
           <svg class="lt-ic" viewBox="0 0 24 24" fill="none"><path d="M12 3v18M4 7l8-4 8 4M4 7v10l8 4 8-4V7" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></svg>
-          <h3>IA au choix</h3><p>OpenAI, Google Gemini, de nombreux fournisseurs cloud, ou un serveur <b>local</b> compatible OpenAI — Ollama, LM Studio, vLLM.</p>
+          <h3>IA au choix</h3><p>OpenAI, Google Gemini, de nombreux fournisseurs cloud, ou un serveur <b>local</b> compatible OpenAI - Ollama, LM Studio, vLLM.</p>
         </div>
         <div class="lt-feat lt-reveal">
           <svg class="lt-ic" viewBox="0 0 24 24" fill="none"><path d="M12 3a9 9 0 1 1-8.5 6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/><path d="M3 4v5h5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/><path d="M12 8v4l3 2" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
-          <h3>Increvable en live</h3><p>Bascule automatique sur un fournisseur de secours, message d'attente en personnage, repli en rôle — jamais d'écran cassé devant les joueurs.</p>
+          <h3>Increvable en live</h3><p>Bascule automatique sur un fournisseur de secours, message d'attente en personnage, repli en rôle - jamais d'écran cassé devant les joueurs.</p>
         </div>
       </div>
     </div>
@@ -111,7 +111,7 @@ function markup(): string {
         <span class="lt-eyebrow">Chez vous, pas dans le cloud</span>
         <h2>Vos données restent dans la salle.</h2>
         <ul>
-          <li><svg viewBox="0 0 24 24" fill="none"><path d="M12 3l7 3v5c0 4.5-3 8-7 10-4-2-7-5.5-7-10V6l7-3Z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/><path d="M9 12l2 2 4-4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg><span><b>On-premise.</b> Une seule application, base locale — aucune donnée ne quitte votre réseau, hormis les appels à l'IA que vous choisissez.</span></li>
+          <li><svg viewBox="0 0 24 24" fill="none"><path d="M12 3l7 3v5c0 4.5-3 8-7 10-4-2-7-5.5-7-10V6l7-3Z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/><path d="M9 12l2 2 4-4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg><span><b>On-premise.</b> Une seule application, base locale - aucune donnée ne quitte votre réseau, hormis les appels à l'IA que vous choisissez.</span></li>
           <li><svg viewBox="0 0 24 24" fill="none"><path d="M9 12l2 2 4-4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/><circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="1.8"/></svg><span><b>RGPD-friendly.</b> Souveraineté des données, rétention et consentement sous votre contrôle.</span></li>
           <li><svg viewBox="0 0 24 24" fill="none"><path d="M12 3v18M4 7l8-4 8 4M4 7v10l8 4 8-4V7" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></svg><span><b>Modèle local possible.</b> Faites tourner l'IA sur votre matériel : coûts maîtrisés, hors-ligne envisageable.</span></li>
         </ul>
