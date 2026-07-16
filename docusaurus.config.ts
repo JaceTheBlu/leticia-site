@@ -61,26 +61,14 @@ const config: Config = {
         alt: 'Leticia',
         src: 'img/logo.png',
       },
-      items: [
-        {
-          type: 'docSidebar',
-          sidebarId: 'docsSidebar',
-          position: 'left',
-          label: 'Documentation',
-        },
-      ],
+      // Vitrine only: no direct links to the documentation. The docs stay
+      // reachable by URL (and from the in-app admin link), just not advertised
+      // on the marketing site.
+      items: [],
     },
     footer: {
       style: 'dark',
       links: [
-        {
-          title: 'Documentation',
-          items: [
-            {label: 'Présentation', to: '/docs/intro'},
-            {label: 'Installation', to: '/docs/installation'},
-            {label: 'Configuration', to: '/docs/configuration'},
-          ],
-        },
         {
           title: 'Légal',
           items: [
