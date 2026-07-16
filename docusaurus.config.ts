@@ -61,10 +61,15 @@ const config: Config = {
         alt: 'Leticia',
         src: 'img/logo.png',
       },
-      // Vitrine only: no direct links to the documentation. The docs stay
-      // reachable by URL (and from the in-app admin link), just not advertised
-      // on the marketing site.
-      items: [],
+      // One-page navigation: shortcuts to the landing sections + a demo CTA.
+      // Still no links to the documentation — it stays off the vitrine.
+      items: [
+        {to: '/#how', label: 'Fonctionnement', position: 'left'},
+        {to: '/#features', label: 'Fonctionnalités', position: 'left'},
+        {to: '/#sovereign', label: 'Souveraineté', position: 'left'},
+        {to: '/#deploy', label: 'Déploiement', position: 'left'},
+        {to: '/#contact', label: 'Demander une démo', position: 'right', className: 'navbar-cta'},
+      ],
     },
     footer: {
       style: 'dark',
