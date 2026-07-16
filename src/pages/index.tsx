@@ -1,5 +1,4 @@
 import {useEffect, useRef, type ReactNode} from 'react';
-import useBaseUrl from '@docusaurus/useBaseUrl';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
 
@@ -7,7 +6,7 @@ import '../css/landing.css';
 
 const REPLY = "J'étais à la bibliothèque, seul. Mais je crains que personne ne puisse le confirmer…";
 
-function markup(docsUrl: string): string {
+function markup(): string {
   return `
   <section class="lt-hero">
     <div class="lt-wrap lt-hero-grid">
@@ -160,7 +159,6 @@ function markup(docsUrl: string): string {
         <p>Une démo, un échange sur votre salle, et on regarde ensemble comment Leticia s'installe chez vous.</p>
         <div class="lt-cta">
           <a class="lt-btn" href="mailto:leticia@ggestin.com?subject=D%C3%A9mo%20Leticia">Demander une démo</a>
-          <a class="lt-btn lt-btn--ghost" href="${docsUrl}">Lire la documentation</a>
         </div>
       </div>
     </div>
@@ -170,7 +168,6 @@ function markup(docsUrl: string): string {
 
 export default function Home(): ReactNode {
   const {siteConfig} = useDocusaurusContext();
-  const docsUrl = useBaseUrl('/docs/intro');
   const rootRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
@@ -263,7 +260,7 @@ export default function Home(): ReactNode {
         className="lt-root"
         ref={rootRef}
         // eslint-disable-next-line react/no-danger
-        dangerouslySetInnerHTML={{__html: markup(docsUrl)}}
+        dangerouslySetInnerHTML={{__html: markup()}}
       />
     </Layout>
   );
