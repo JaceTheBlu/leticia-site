@@ -30,7 +30,7 @@ chez un fournisseur cloud pour la qualité.
 
 En plus d'OpenAI et Gemini, Leticia intègre en presets plusieurs fournisseurs
 cloud qui parlent le format OpenAI. Sélectionnez le provider, collez votre clé,
-choisissez (ou saisissez) le modèle — l'URL de base est pré-remplie.
+choisissez (ou saisissez) le modèle - l'URL de base est pré-remplie.
 
 | Provider | Capacités | URL de base |
 |---|---|---|
