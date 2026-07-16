@@ -159,7 +159,7 @@ function markup(docsUrl: string): string {
         <h2>Faites parler vos personnages.</h2>
         <p>Une démo, un échange sur votre salle, et on regarde ensemble comment Leticia s'installe chez vous.</p>
         <div class="lt-cta">
-          <a class="lt-btn" href="mailto:contact@example.com?subject=D%C3%A9mo%20Leticia">Demander une démo</a>
+          <a class="lt-btn" href="mailto:leticia@ggestin.com?subject=D%C3%A9mo%20Leticia">Demander une démo</a>
           <a class="lt-btn lt-btn--ghost" href="${docsUrl}">Lire la documentation</a>
         </div>
       </div>
