@@ -141,13 +141,12 @@ function markup(): string {
   <section id="deploy" class="lt-section lt-band">
     <div class="lt-wrap">
       <div class="lt-section-head lt-reveal">
-        <span class="lt-eyebrow">Trois formats</span>
+        <span class="lt-eyebrow">Déploiement</span>
         <h2>Déployez comme ça vous arrange.</h2>
       </div>
       <div class="lt-deploy">
         <div class="lt-fmt lt-reveal"><span class="lt-name">Docker</span><span class="lt-who">Serveur Linux ou NAS</span><span class="lt-req">Prérequis : <b>Docker</b></span></div>
         <div class="lt-fmt lt-reveal"><span class="lt-name">Installeur Windows</span><span class="lt-who">Poste Windows, clé en main</span><span class="lt-req">Prérequis : <b>aucun</b></span></div>
-        <div class="lt-fmt lt-reveal"><span class="lt-name">Archive Python</span><span class="lt-who">Machine avec Python</span><span class="lt-req">Prérequis : <b>Python 3.11+</b></span></div>
       </div>
     </div>
   </section>

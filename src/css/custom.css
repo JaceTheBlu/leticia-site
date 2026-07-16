@@ -33,3 +33,27 @@
   --ifm-background-surface-color: #11151f;
   --ifm-navbar-background-color: rgba(11, 14, 23, 0.85);
 }
+
+/* One-page navigation: smooth scroll to the landing sections (disabled when the
+   viewer prefers reduced motion). */
+html {
+  scroll-behavior: smooth;
+}
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
+
+/* "Demander une démo" navbar item, styled as a solid accent button. */
+.navbar-cta {
+  color: #fff !important;
+  background: var(--ifm-color-primary);
+  border-radius: 4px;
+  padding: 0.4rem 0.9rem;
+  margin-left: 0.4rem;
+  transition: background 0.15s ease;
+}
+.navbar-cta:hover {
+  background: var(--ifm-color-primary-dark);
+}
