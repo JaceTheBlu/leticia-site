@@ -35,6 +35,14 @@ const config: Config = {
     locales: ['fr'],
   },
 
+  // The site ships its own light + dark theme (Docusaurus color mode). Declare
+  // both schemes and lock out theme extensions (Dark Reader et al.) so they
+  // don't re-tint an already-dark page.
+  headTags: [
+    {tagName: 'meta', attributes: {name: 'color-scheme', content: 'light dark'}},
+    {tagName: 'meta', attributes: {name: 'darkreader-lock', content: 'true'}},
+  ],
+
   presets: [
     [
       'classic',
@@ -62,7 +70,7 @@ const config: Config = {
         src: 'img/logo.png',
       },
       // One-page navigation: shortcuts to the landing sections + a demo CTA.
-      // Still no links to the documentation — it stays off the vitrine.
+      // Still no links to the documentation - it stays off the vitrine.
       items: [
         {to: '/#how', label: 'Fonctionnement', position: 'left'},
         {to: '/#features', label: 'Fonctionnalités', position: 'left'},
