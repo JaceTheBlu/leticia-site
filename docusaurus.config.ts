@@ -91,6 +91,7 @@ const config: Config = {
         {to: '/#features', label: 'Fonctionnalités', position: 'left'},
         {to: '/#sovereign', label: 'Souveraineté', position: 'left'},
         {to: '/#deploy', label: 'Déploiement', position: 'left'},
+        {to: '/#pricing', label: 'Tarifs', position: 'left'},
         {to: '/#faq', label: 'FAQ', position: 'left'},
         {to: '/#contact', label: 'Demander une démo', position: 'right', className: 'navbar-cta'},
       ],

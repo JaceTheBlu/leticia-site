@@ -151,6 +151,44 @@ function markup(): string {
     </div>
   </section>
 
+  <section id="pricing" class="lt-section">
+    <div class="lt-wrap">
+      <div class="lt-section-head lt-reveal">
+        <span class="lt-eyebrow">Tarifs</span>
+        <h2>Un prix par salle, dégressif.</h2>
+        <p>Vous payez par salle active, et le tarif baisse dès que vous en avez plusieurs. Au-delà de cinq salles, on construit l'offre ensemble.</p>
+      </div>
+      <div class="lt-pricing">
+        <div class="lt-tier lt-reveal">
+          <span class="lt-tier-name">Essentiel</span>
+          <span class="lt-tier-rooms">1 à 2 salles</span>
+          <div class="lt-price"><span class="lt-amount">150€</span><span class="lt-unit">/ salle / mois</span></div>
+          <p class="lt-tier-note">Pour se lancer avec une ou deux salles.</p>
+          <a class="lt-btn lt-btn--ghost" href="#contact">Demander une démo</a>
+        </div>
+        <div class="lt-tier lt-tier--feature lt-reveal">
+          <span class="lt-tier-badge">Le plus courant</span>
+          <span class="lt-tier-name">Studio</span>
+          <span class="lt-tier-rooms">3 à 4 salles</span>
+          <div class="lt-price"><span class="lt-amount">135€</span><span class="lt-unit">/ salle / mois</span></div>
+          <p class="lt-tier-note">Le tarif dégressif dès la troisième salle.</p>
+          <a class="lt-btn" href="#contact">Demander une démo</a>
+        </div>
+        <div class="lt-tier lt-reveal">
+          <span class="lt-tier-name">Enseigne</span>
+          <span class="lt-tier-rooms">5 salles et +</span>
+          <div class="lt-price"><span class="lt-amount">Sur devis</span></div>
+          <p class="lt-tier-note">Multi-salles ou multi-sites : on construit l'offre ensemble.</p>
+          <a class="lt-btn lt-btn--ghost" href="#contact">Demander un devis</a>
+        </div>
+      </div>
+      <div class="lt-pricing-foot lt-reveal">
+        <p class="lt-included"><b>Tout compris.</b> Chaque abonnement inclut la plateforme et la console maître du jeu, les mises à jour, les sauvegardes automatiques et le support. L'IA reste au choix, avec vos propres accès, cloud ou local.</p>
+        <span class="lt-annual">Engagement annuel : 2 mois offerts</span>
+      </div>
+    </div>
+  </section>
+
   <section id="faq" class="lt-section">
     <div class="lt-wrap">
       <div class="lt-section-head lt-reveal">
