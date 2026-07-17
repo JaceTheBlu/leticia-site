@@ -128,3 +128,8 @@ Le ressenti de conversation dépend surtout de la vitesse du **LLM** et du
 **TTS**. Un petit modèle local rapide, ou un modèle cloud léger, donne une
 réponse quasi immédiate ; un gros modèle local sur CPU sera plus lent. Ajustez
 aussi le nombre de tokens et la taille d'historique dans **Paramètres → IA**.
+
+Avec **Gemini 2.5 ou 3**, vérifiez surtout que le réglage **Réflexion du modèle
+(thinking)** est **désactivé** (c'est le défaut) : ces modèles raisonnent avant
+de répondre et peuvent mettre plus de 20 s par réplique quand la réflexion est
+active. Voir [Exploitation avancée](./exploitation-avancee#régler-la-latence).
