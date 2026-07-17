@@ -151,6 +151,41 @@ function markup(): string {
     </div>
   </section>
 
+  <section id="faq" class="lt-section">
+    <div class="lt-wrap">
+      <div class="lt-section-head lt-reveal">
+        <span class="lt-eyebrow">Les questions qu'on nous pose</span>
+        <h2>Avant la démo, l'essentiel.</h2>
+      </div>
+      <div class="lt-faq">
+        <details class="lt-qa lt-reveal">
+          <summary>Quelle IA faut-il ? Un abonnement est-il obligatoire ?<span class="lt-plus" aria-hidden="true"></span></summary>
+          <p>Vous branchez la vôtre. Un fournisseur cloud (OpenAI, Google Gemini et bien d'autres) avec vos propres clés, ou un modèle <b>local</b> compatible OpenAI - Ollama, LM Studio, vLLM. Aucun abonnement à Leticia : vous ne payez que l'IA que vous choisissez, ou rien du tout en local.</p>
+        </details>
+        <details class="lt-qa lt-reveal">
+          <summary>Mes données partent-elles dans le cloud ?<span class="lt-plus" aria-hidden="true"></span></summary>
+          <p>Non. L'application et sa base tournent sur <b>votre serveur</b> ; rien ne quitte votre réseau, à l'exception des appels vers le fournisseur d'IA que vous décidez d'utiliser. Avec un modèle local, même ces appels restent chez vous : tout est hors-ligne.</p>
+        </details>
+        <details class="lt-qa lt-reveal">
+          <summary>Que faut-il pour la borne joueur ?<span class="lt-plus" aria-hidden="true"></span></summary>
+          <p>Rien à installer côté salle : un écran tactile avec micro, un navigateur ouvert en plein écran pointé sur le serveur. Le lecteur de badge RFID est en option pour choisir un personnage d'un simple tap. Appairée une fois, la borne ne se reconfigure plus.</p>
+        </details>
+        <details class="lt-qa lt-reveal">
+          <summary>Combien de salles en même temps ?<span class="lt-plus" aria-hidden="true"></span></summary>
+          <p>Plusieurs parties tournent en parallèle sur le même serveur, une borne par salle. Le maître du jeu associe chaque partie à sa borne au lancement, depuis la console.</p>
+        </details>
+        <details class="lt-qa lt-reveal">
+          <summary>Et si l'IA tombe en panne pendant une partie ?<span class="lt-plus" aria-hidden="true"></span></summary>
+          <p>La boucle est conçue pour le live : timeout, nouvelles tentatives et bascule automatique sur un fournisseur de secours. Côté joueur, un message d'attente resté en personnage, puis un repli en rôle. Jamais d'écran cassé devant les joueurs.</p>
+        </details>
+        <details class="lt-qa lt-reveal">
+          <summary>Comment on l'installe ?<span class="lt-plus" aria-hidden="true"></span></summary>
+          <p>Deux formats : une image <b>Docker</b> pour un serveur Linux ou un NAS, ou un <b>installeur Windows</b> clé en main sans prérequis. La base met son schéma à jour toute seule au démarrage.</p>
+        </details>
+      </div>
+    </div>
+  </section>
+
   <section id="contact" class="lt-section lt-final">
     <div class="lt-wrap">
       <div class="lt-inner lt-reveal">

@@ -170,6 +170,51 @@ html[data-theme="dark"] .lt-root {
 .lt-final p { color: var(--lt-muted); margin: 1rem auto 0; max-width: 48ch; position: relative; }
 .lt-final .lt-cta { justify-content: center; }
 
+/* faq */
+.lt-faq { display: grid; gap: 0.75rem; max-width: 820px; }
+.lt-qa { border: 1px solid var(--lt-hairline); border-radius: var(--lt-radius-lg); background: var(--lt-surface); overflow: hidden; transition: border-color .16s ease; }
+.lt-qa[open] { border-color: color-mix(in srgb, var(--lt-accent) 40%, var(--lt-hairline)); }
+.lt-qa summary { list-style: none; cursor: pointer; display: flex; align-items: center; gap: 1rem; padding: 1.15rem 1.35rem; font-weight: 650; font-size: 1.05rem; color: var(--lt-ink); }
+.lt-qa summary::-webkit-details-marker { display: none; }
+.lt-qa summary:hover { color: var(--lt-accent); }
+.lt-plus { margin-left: auto; position: relative; width: 14px; height: 14px; flex: none; }
+.lt-plus::before, .lt-plus::after { content: ""; position: absolute; inset: 0; margin: auto; background: var(--lt-accent); transition: transform .2s ease, opacity .2s ease; }
+.lt-plus::before { width: 14px; height: 2px; }
+.lt-plus::after { width: 2px; height: 14px; }
+.lt-qa[open] .lt-plus::after { transform: rotate(90deg); opacity: 0; }
+.lt-qa p { color: var(--lt-muted); padding: 0 1.35rem 1.25rem; font-size: 0.98rem; max-width: 68ch; }
+.lt-qa b { color: var(--lt-ink); font-weight: 650; }
+
+/* interactive lift on every card-like surface */
+.lt-step, .lt-feat, .lt-assure .lt-card, .lt-fmt {
+  transition: transform .16s ease, border-color .16s ease, box-shadow .16s ease;
+}
+.lt-step:hover, .lt-assure .lt-card:hover, .lt-fmt:hover {
+  transform: translateY(-3px); border-color: color-mix(in srgb, var(--lt-accent) 45%, var(--lt-hairline)); box-shadow: var(--lt-shadow);
+}
+/* .lt-feat sits in a 1px-gap grid, so lift it with color + z-index, not translate */
+.lt-feat { position: relative; }
+.lt-feat:hover { background: color-mix(in srgb, var(--lt-accent) 5%, var(--lt-surface)); z-index: 1; }
+.lt-terminal { transition: transform .2s ease, box-shadow .2s ease; }
+.lt-hero-grid:hover .lt-terminal { box-shadow: 0 1px 2px rgba(18, 21, 29, .05), 0 26px 60px -20px color-mix(in srgb, var(--lt-accent) 30%, transparent); }
+
+/* Scroll-reveal, pure CSS via scroll-driven animations. Guarded by @supports so
+   any browser without the feature (and server-side render) keeps every element
+   fully visible - no JS, no FOUC, no stuck-hidden sections. */
+@supports (animation-timeline: view()) {
+  @media (prefers-reduced-motion: no-preference) {
+    .lt-reveal {
+      animation: lt-rise both;
+      animation-timeline: view();
+      animation-range: entry 4% cover 22%;
+    }
+  }
+}
+@keyframes lt-rise {
+  from { opacity: 0; transform: translateY(18px); }
+  to { opacity: 1; transform: none; }
+}
+
 @media (prefers-reduced-motion: reduce) {
   .lt-caret, .lt-chip .lt-pulse { animation: none; }
 }
