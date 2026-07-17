@@ -59,7 +59,22 @@ const config: Config = {
   ],
 
   themeConfig: {
+    // Social card + shared SEO tags. `image` becomes og:image / twitter:image;
+    // `metadata` fills the description, keywords and card type on every page.
     image: 'img/logo.png',
+    metadata: [
+      {
+        name: 'description',
+        content:
+          "Leticia : interrogatoires narratifs assistés par IA pour escape games. Les joueurs parlent, les personnages répondent en rôle, sur votre propre serveur.",
+      },
+      {
+        name: 'keywords',
+        content: 'escape game, IA, interrogatoire, narration, on-premise, RGPD, borne joueur, RFID',
+      },
+      {property: 'og:type', content: 'website'},
+      {name: 'twitter:card', content: 'summary_large_image'},
+    ],
     colorMode: {
       respectPrefersColorScheme: true,
     },
@@ -76,6 +91,8 @@ const config: Config = {
         {to: '/#features', label: 'Fonctionnalités', position: 'left'},
         {to: '/#sovereign', label: 'Souveraineté', position: 'left'},
         {to: '/#deploy', label: 'Déploiement', position: 'left'},
+        {to: '/#pricing', label: 'Tarifs', position: 'left'},
+        {to: '/#faq', label: 'FAQ', position: 'left'},
         {to: '/#contact', label: 'Demander une démo', position: 'right', className: 'navbar-cta'},
       ],
     },

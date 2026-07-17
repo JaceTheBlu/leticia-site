@@ -151,6 +151,79 @@ function markup(): string {
     </div>
   </section>
 
+  <section id="pricing" class="lt-section">
+    <div class="lt-wrap">
+      <div class="lt-section-head lt-reveal">
+        <span class="lt-eyebrow">Tarifs</span>
+        <h2>Un prix par salle, dégressif.</h2>
+        <p>Vous payez par salle active, et le tarif baisse dès que vous en avez plusieurs. Au-delà de cinq salles, on construit l'offre ensemble.</p>
+      </div>
+      <div class="lt-pricing">
+        <div class="lt-tier lt-reveal">
+          <span class="lt-tier-name">Essentiel</span>
+          <span class="lt-tier-rooms">1 à 2 salles</span>
+          <div class="lt-price"><span class="lt-amount">150€</span><span class="lt-unit">/ salle / mois</span></div>
+          <p class="lt-tier-note">Pour se lancer avec une ou deux salles.</p>
+          <a class="lt-btn lt-btn--ghost" href="#contact">Demander une démo</a>
+        </div>
+        <div class="lt-tier lt-tier--feature lt-reveal">
+          <span class="lt-tier-badge">Le plus courant</span>
+          <span class="lt-tier-name">Studio</span>
+          <span class="lt-tier-rooms">3 à 4 salles</span>
+          <div class="lt-price"><span class="lt-amount">135€</span><span class="lt-unit">/ salle / mois</span></div>
+          <p class="lt-tier-note">Le tarif dégressif dès la troisième salle.</p>
+          <a class="lt-btn" href="#contact">Demander une démo</a>
+        </div>
+        <div class="lt-tier lt-reveal">
+          <span class="lt-tier-name">Enseigne</span>
+          <span class="lt-tier-rooms">5 salles et +</span>
+          <div class="lt-price"><span class="lt-amount">Sur devis</span></div>
+          <p class="lt-tier-note">Multi-salles ou multi-sites : on construit l'offre ensemble.</p>
+          <a class="lt-btn lt-btn--ghost" href="#contact">Demander un devis</a>
+        </div>
+      </div>
+      <div class="lt-pricing-foot lt-reveal">
+        <p class="lt-included"><b>Tout compris.</b> Chaque abonnement inclut la plateforme et la console maître du jeu, les mises à jour, les sauvegardes automatiques et le support. L'IA reste au choix, avec vos propres accès, cloud ou local.</p>
+        <span class="lt-annual">Engagement annuel : 2 mois offerts</span>
+      </div>
+    </div>
+  </section>
+
+  <section id="faq" class="lt-section">
+    <div class="lt-wrap">
+      <div class="lt-section-head lt-reveal">
+        <span class="lt-eyebrow">Les questions qu'on nous pose</span>
+        <h2>Avant la démo, l'essentiel.</h2>
+      </div>
+      <div class="lt-faq">
+        <details class="lt-qa lt-reveal">
+          <summary>Quelle IA faut-il ? Un abonnement est-il obligatoire ?<span class="lt-plus" aria-hidden="true"></span></summary>
+          <p>Vous branchez la vôtre. Un fournisseur cloud (OpenAI, Google Gemini et bien d'autres) avec vos propres clés, ou un modèle <b>local</b> compatible OpenAI - Ollama, LM Studio, vLLM. Aucun abonnement à Leticia : vous ne payez que l'IA que vous choisissez, ou rien du tout en local.</p>
+        </details>
+        <details class="lt-qa lt-reveal">
+          <summary>Mes données partent-elles dans le cloud ?<span class="lt-plus" aria-hidden="true"></span></summary>
+          <p>Non. L'application et sa base tournent sur <b>votre serveur</b> ; rien ne quitte votre réseau, à l'exception des appels vers le fournisseur d'IA que vous décidez d'utiliser. Avec un modèle local, même ces appels restent chez vous : tout est hors-ligne.</p>
+        </details>
+        <details class="lt-qa lt-reveal">
+          <summary>Que faut-il pour la borne joueur ?<span class="lt-plus" aria-hidden="true"></span></summary>
+          <p>Rien à installer côté salle : un écran tactile avec micro, un navigateur ouvert en plein écran pointé sur le serveur. Le lecteur de badge RFID est en option pour choisir un personnage d'un simple tap. Appairée une fois, la borne ne se reconfigure plus.</p>
+        </details>
+        <details class="lt-qa lt-reveal">
+          <summary>Combien de salles en même temps ?<span class="lt-plus" aria-hidden="true"></span></summary>
+          <p>Plusieurs parties tournent en parallèle sur le même serveur, une borne par salle. Le maître du jeu associe chaque partie à sa borne au lancement, depuis la console.</p>
+        </details>
+        <details class="lt-qa lt-reveal">
+          <summary>Et si l'IA tombe en panne pendant une partie ?<span class="lt-plus" aria-hidden="true"></span></summary>
+          <p>La boucle est conçue pour le live : timeout, nouvelles tentatives et bascule automatique sur un fournisseur de secours. Côté joueur, un message d'attente resté en personnage, puis un repli en rôle. Jamais d'écran cassé devant les joueurs.</p>
+        </details>
+        <details class="lt-qa lt-reveal">
+          <summary>Comment on l'installe ?<span class="lt-plus" aria-hidden="true"></span></summary>
+          <p>Deux formats : une image <b>Docker</b> pour un serveur Linux ou un NAS, ou un <b>installeur Windows</b> clé en main sans prérequis. La base met son schéma à jour toute seule au démarrage.</p>
+        </details>
+      </div>
+    </div>
+  </section>
+
   <section id="contact" class="lt-section lt-final">
     <div class="lt-wrap">
       <div class="lt-inner lt-reveal">
