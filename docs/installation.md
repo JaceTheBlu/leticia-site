@@ -78,6 +78,25 @@ Pour un poste Windows sans Python ni Docker.
 L'application s'annonce aussi sur le réseau local sous **`http://leticia.local:8000`**
 (accessible depuis les autres appareils du même réseau).
 
+### IA locale hors-ligne (optionnelle)
+
+Pendant l'installation, vous pouvez cocher l'installation d'une **pile IA locale**
+sans Docker : dialogue (Ollama), reconnaissance vocale (Whisper) et synthèse
+vocale (Piper). L'installeur télécharge les outils, puis un **unique modèle
+recommandé** (`qwen3:4b`, qui tourne sur CPU) est téléchargé au premier lancement
+derrière un écran d'attente. Aucun accès cloud ni clé API n'est alors nécessaire.
+
+Vous gardez la main sur ces services :
+
+- **Arrêter / redémarrer** chaque backend depuis l'icône de la barre système, ou
+  depuis **Réglages → Diagnostics → Services IA locaux** dans l'application.
+- **Tester** chaque IA (dialogue, images, transcription, synthèse) avec la
+  configuration enregistrée depuis ce même onglet Diagnostics.
+
+À la **désinstallation**, une option propose de retirer aussi l'IA locale (Ollama
+et les modèles téléchargés, plusieurs Go). Vos parties, personnages et réglages
+sont conservés dans tous les cas.
+
 ## Et ensuite ?
 
 Au premier accès, l'application vous demande de créer le **compte
