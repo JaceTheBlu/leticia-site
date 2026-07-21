@@ -184,7 +184,6 @@ function markup(): string {
       </div>
       <div class="lt-pricing-foot lt-reveal">
         <p class="lt-included"><b>Tout compris.</b> Chaque abonnement inclut la plateforme et la console maître du jeu, les mises à jour, les sauvegardes automatiques et le support. L'IA reste au choix, avec vos propres accès, cloud ou local.</p>
-        <span class="lt-annual">Engagement annuel : 2 mois offerts</span>
       </div>
     </div>
   </section>
