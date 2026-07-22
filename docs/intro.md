@@ -31,12 +31,13 @@ Leticia se déploie **on-premise** (chez vous), en une seule application :
 - une base **SQLite** locale (aucune donnée n'quitte votre réseau, hormis les
   appels aux fournisseurs d'IA que vous choisissez).
 
-Trois formats de déploiement sont disponibles selon votre environnement :
+Quatre formats de déploiement sont disponibles selon votre environnement :
 
 | Format | Pour qui | Prérequis |
 |---|---|---|
 | **Docker** | Serveur Linux / NAS | Docker |
-| **Archive sans Docker** | Machine avec Python | Python 3.11+ |
 | **Installeur Windows** | Poste Windows clé en main | Aucun |
+| **Installeur Linux** | Serveur Linux, sans Docker | systemd |
+| **Application macOS** | Mac, barre de menus | Apple Silicon |
 
 ➡️ Commencez par l'[installation](./installation).
