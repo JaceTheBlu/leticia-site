@@ -219,13 +219,22 @@ html[data-theme="dark"] .lt-root {
 
 /* Scroll-reveal, pure CSS via scroll-driven animations. Guarded by @supports so
    any browser without the feature (and server-side render) keeps every element
-   fully visible - no JS, no FOUC, no stuck-hidden sections. */
+   fully visible - no JS, no FOUC, no stuck-hidden sections.
+   Above-the-fold content must never carry .lt-reveal: an "entry" view-timeline
+   never progresses for an element already inside the viewport at first paint
+   (there is no scroll to enter from), so it gets stuck at the animation's
+   `from` keyframe - invisible - in every browser that supports view(). The
+   hero, visible without any scroll, is excluded here as a safety net even
+   though it no longer carries the class. */
 @supports (animation-timeline: view()) {
   @media (prefers-reduced-motion: no-preference) {
     .lt-reveal {
       animation: lt-rise both;
       animation-timeline: view();
       animation-range: entry 4% cover 22%;
+    }
+    .lt-hero .lt-reveal {
+      animation: none;
     }
   }
 }

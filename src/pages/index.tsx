@@ -27,7 +27,7 @@ function markup(): string {
         </div>
       </div>
 
-      <div class="lt-terminal lt-reveal">
+      <div class="lt-terminal">
         <div class="lt-terminal-bar">
           <span class="lt-code">Salle 3 · Le Manoir des Ombres</span>
           <span class="lt-chip"><span class="lt-pulse"></span>En rôle</span>
@@ -147,6 +147,8 @@ function markup(): string {
       <div class="lt-deploy">
         <div class="lt-fmt lt-reveal"><span class="lt-name">Docker</span><span class="lt-who">Serveur Linux ou NAS</span><span class="lt-req">Prérequis : <b>Docker</b></span></div>
         <div class="lt-fmt lt-reveal"><span class="lt-name">Installeur Windows</span><span class="lt-who">Poste Windows, clé en main</span><span class="lt-req">Prérequis : <b>aucun</b></span></div>
+        <div class="lt-fmt lt-reveal"><span class="lt-name">Installeur Linux</span><span class="lt-who">Serveur Linux, sans Docker</span><span class="lt-req">Prérequis : <b>systemd</b></span></div>
+        <div class="lt-fmt lt-reveal"><span class="lt-name">Application macOS</span><span class="lt-who">Mac, barre de menus</span><span class="lt-req">Prérequis : <b>Apple Silicon</b></span></div>
       </div>
     </div>
   </section>
@@ -170,7 +172,7 @@ function markup(): string {
           <span class="lt-tier-badge">Le plus courant</span>
           <span class="lt-tier-name">Studio</span>
           <span class="lt-tier-rooms">3 à 4 salles</span>
-          <div class="lt-price"><span class="lt-amount">135€</span><span class="lt-unit">/ salle / mois</span></div>
+          <div class="lt-price"><span class="lt-amount">140€</span><span class="lt-unit">/ salle / mois</span></div>
           <p class="lt-tier-note">Le tarif dégressif dès la troisième salle.</p>
           <a class="lt-btn" href="#contact">Demander une démo</a>
         </div>
@@ -217,7 +219,7 @@ function markup(): string {
         </details>
         <details class="lt-qa lt-reveal">
           <summary>Comment on l'installe ?<span class="lt-plus" aria-hidden="true"></span></summary>
-          <p>Deux formats : une image <b>Docker</b> pour un serveur Linux ou un NAS, ou un <b>installeur Windows</b> clé en main sans prérequis. La base met son schéma à jour toute seule au démarrage.</p>
+          <p>Quatre formats : une image <b>Docker</b> pour un serveur Linux ou un NAS, un <b>installeur Windows</b> clé en main sans prérequis, un <b>installeur Linux</b> (binaire + service systemd, sans Docker), ou une <b>application macOS</b> (Apple Silicon, barre de menus). La base met son schéma à jour toute seule au démarrage.</p>
         </details>
       </div>
     </div>
