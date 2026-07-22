@@ -3,7 +3,11 @@ sidebar_position: 3
 title: Installation
 ---
 
+import LatestVersionBadge from '@site/src/components/LatestVersionBadge';
+
 # Installation
+
+<LatestVersionBadge />
 
 Choisissez le format adapté à votre environnement. Dans tous les cas,
 l'application est ensuite accessible sur **`http://<machine>:8000`**.
