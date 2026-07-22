@@ -40,4 +40,6 @@ Quatre formats de déploiement sont disponibles selon votre environnement :
 | **Installeur Linux** | Serveur Linux, sans Docker | systemd |
 | **Application macOS** | Mac, barre de menus | Apple Silicon |
 
-➡️ Commencez par l'[installation](./installation).
+➡️ Pour comprendre le déroulé d'une session et le trajet d'une réplique,
+voir [Fonctionnement](./fonctionnement). Pour installer, direction
+l'[installation](./installation).
