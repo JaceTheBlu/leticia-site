@@ -13,11 +13,10 @@ const config: Config = {
     v4: true,
   },
 
-  // Default GitHub Pages URL so the site works out of the box. For a custom
-  // domain (e.g. docs.letic.ia), set url to that domain, baseUrl to '/', and
-  // add a static/CNAME file.
-  url: 'https://jacetheblu.github.io',
-  baseUrl: '/leticia-site/',
+  // Custom domain (static/CNAME) fronted by GitHub Pages: url is the domain
+  // itself and baseUrl is '/' since nothing is served from a repo-name path.
+  url: 'https://leticia-app.com',
+  baseUrl: '/',
 
   organizationName: 'JaceTheBlu',
   projectName: 'leticia-site',
